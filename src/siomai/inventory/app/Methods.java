@@ -13,8 +13,8 @@ public class Methods {
     static java.sql.Connection conn  = null;
     static java.sql.Statement stmt = null;
     static File temp = new File("database.sqlite");
-    static String url = "jdbc:sqlite:" + temp.getAbsolutePath().replace("\\","\\\\");
-    //static String url = "jdbc:sqlite:C:\\Users\\Conrad Francisco Jr\\Desktop\\TransactionManagement\\src\\siomai\\inventory\\app\\database.sqlite";
+    //static String url = "jdbc:sqlite:" + temp.getAbsolutePath().replace("\\","\\\\");
+    static String url = "jdbc:sqlite:C:\\Users\\Conrad Francisco Jr\\Desktop\\TransactionManagement\\src\\siomai\\inventory\\app\\database.sqlite";
     static String error = "";
     
     public static boolean openDB(){
